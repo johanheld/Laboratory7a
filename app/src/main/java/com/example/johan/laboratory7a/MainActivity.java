@@ -59,7 +59,7 @@ public class MainActivity extends Activity
                 tvText.setText(str);
             }
 
-        }, "http://ddwap.mah.se/tsroax/memory/Memory.html", "ISO-8859-1");
+        }, "http://ddwap.mah.se/tsroax/memory/Memory.html", "ISO-8859-1", this);
     }
 
     private class BL implements LoadBitmap.BitmapListener
